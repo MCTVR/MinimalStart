@@ -1,5 +1,4 @@
 <script>
-	import { writable } from 'svelte/store';
 	import SearchComp from './SearchComp.svelte';
 	import Clock from './Clock.svelte';
 

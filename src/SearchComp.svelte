@@ -1,7 +1,7 @@
 <script>
     import { scale, fly, fade } from 'svelte/transition';
     import { quintInOut } from 'svelte/easing';
-    //import { writable } from 'svelte/store';
+
     let searchEngineChosen = "Google";
     let searchEngineMenuLaunched = false;
 
