@@ -1,16 +1,11 @@
 <script>
-    import { onMount } from "svelte";
-
-    import { fade } from "svelte/transition";
 
     export let imgURL = "icons/HK.webp";
 
 </script>
 
 <div id="bg">
-    {#if imgURL}
-        <img transition:fade src={imgURL} alt="" />
-    {/if}
+    <img src={imgURL} alt="" />
 </div>
 
 

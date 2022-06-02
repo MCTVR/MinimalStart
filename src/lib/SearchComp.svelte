@@ -43,7 +43,7 @@
                     <div id="searchEngine-menu" transition:slide={{ duration: 200, easing: quintInOut }}>
                         {#each searchEngineList as searchEngine}
                             {#if searchEngine.name !== searchEngineChosen}
-                                <img class="searchEngine-menu-icon" src="/icons/{searchEngine.name}.png" id="{searchEngine.name}-menu-icon" on:click={() => { searchEngineChosen = searchEngine.name; }} alt="{searchEngine.name}" />
+                                <img class="searchEngine-menu-icon" src="./icons/{searchEngine.name}.png" id="{searchEngine.name}-menu-icon" on:click={() => { searchEngineChosen = searchEngine.name; }} alt="{searchEngine.name}" />
                             {/if}
                         {/each}
                         <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -56,13 +56,13 @@
                 {/if}
 
                 {#if searchEngineChosen === "Google"}
-                    <img class="searchEngine-icon" id="Google-icon" src="/icons/Google.png" alt="Google" />
+                    <img class="searchEngine-icon" id="Google-icon" src="./icons/Google.png" alt="Google" />
                 {:else if searchEngineChosen === "DuckDuckGo"}
-                    <img class="searchEngine-icon" id="DuckDuckGo-icon" src="/icons/DuckDuckGo.png" alt="DuckDuckGo" />
+                    <img class="searchEngine-icon" id="DuckDuckGo-icon" src="./icons/DuckDuckGo.png" alt="DuckDuckGo" />
                 {:else if searchEngineChosen === "Baidu"}
-                    <img class="searchEngine-icon" id="Baidu-icon" src="/icons/Baidu.png" alt="Baidu" />
+                    <img class="searchEngine-icon" id="Baidu-icon" src="./icons/Baidu.png" alt="Baidu" />
                 {:else}
-                    <img class="searchEngine-icon" id="Google-icon" src="/icons/Google.png" alt="Google" />
+                    <img class="searchEngine-icon" id="Google-icon" src="./icons/Google.png" alt="Google" />
                 {/if}
             </div>
             <svg on:click="{() => { if (typeof searchVal !== "undefined") { let query = searchEngineList[searchEngineList.findIndex(x => x.name == searchEngineChosen)].query; window.location.href = query + searchVal; }}}" id="search-icon" viewBox="0 0 24 24">
