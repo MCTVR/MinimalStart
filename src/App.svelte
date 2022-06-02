@@ -1,6 +1,6 @@
 <script>
-	import SearchComp from './SearchComp.svelte';
-	import Clock from './Clock.svelte';
+	import SearchComp from './lib/SearchComp.svelte';
+	import Clock from './lib/Clock.svelte';
 
 </script>
 
@@ -15,6 +15,14 @@
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
+	}
+
+	:global(*) {
+		font-family: "SF Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
+	:global(img, svg) {
+		user-select: none;
 	}
 
 	#app {

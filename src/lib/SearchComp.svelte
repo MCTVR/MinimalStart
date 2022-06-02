@@ -1,5 +1,6 @@
 <script>
-    import { scale, fly, fade } from 'svelte/transition';
+    import { onMount } from 'svelte';
+    import { slide } from 'svelte/transition';
     import { quintInOut } from 'svelte/easing';
 
     let searchEngineChosen = "Google";
@@ -13,18 +14,33 @@
         {name: "Baidu", query: "https://www.baidu.com/s?ie=utf-8&wd="},
     ];
 
+    const launchQuery = () => {
+        let query = searchEngineList[searchEngineList.findIndex(x => x.name == searchEngineChosen)].query;
+        window.location.href = query + searchVal;
+    }
+
+    onMount(() => {
+        document.getElementById("search-bar").focus();
+        document.getElementById("search-bar-div").addEventListener("submit", (e) => {
+            e.preventDefault();
+            if ( typeof searchVal !== "undefined") {
+                launchQuery();
+            }
+        });
+    });
+
 </script>
 
 <div id="search-component-wrapper">
     <div id="search-component">
-        <div id="search-bar-div">
+        <form id="search-bar-div">
             <input bind:value={searchVal} id="search-bar" type="text" placeholder={`Search with ${searchEngineChosen}`} />
-        </div>
+        </form>
         <div id="search-button" on:mouseleave={() => { searchEngineMenuLaunched = false; }}>
             <div id="chosen-searchEngine" on:click={() => { searchEngineMenuLaunched = !searchEngineMenuLaunched; }}>
                 
                 {#if searchEngineMenuLaunched}
-                    <div id="searchEngine-menu" in:scale="{{ start: .5, duration: 200, easing: quintInOut }}" out:fly="{{ y: 10, duration: 200, easing: quintInOut }}">
+                    <div id="searchEngine-menu" transition:slide={{ duration: 200, easing: quintInOut }}>
                         {#each searchEngineList as searchEngine}
                             {#if searchEngine.name !== searchEngineChosen}
                                 <img class="searchEngine-menu-icon" src="/icons/{searchEngine.name}.png" id="{searchEngine.name}-menu-icon" on:click={() => { searchEngineChosen = searchEngine.name; }} alt="{searchEngine.name}" />
@@ -58,9 +74,11 @@
     </div>
 </div>
 
-<svelte:window on:keydown="{(event) => { if (event.key === "Enter" && typeof searchVal !== "undefined") { event.preventDefault(); let query = searchEngineList[searchEngineList.findIndex(x => x.name == searchEngineChosen)].query; window.location.href = query + searchVal;}}}" />
-
 <style>
+    #searchBar::placeholder {
+        user-select: none;
+    }
+
     #searchEngine-menu {
         z-index: 10;
         visibility: visible;
@@ -125,7 +143,6 @@
         align-items: center;
         justify-content: center;
         width: 42rem;
-        /* background-color: aqua; */
         padding: 10px;
         flex-direction: row;
     }
