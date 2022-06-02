@@ -1,11 +1,12 @@
 <script>
 	import SearchComp from './lib/SearchComp.svelte';
 	import Clock from './lib/Clock.svelte';
+	import Background from './lib/Background.svelte';
 
 </script>
 
 <div id="app">
-	<bg></bg>
+	<Background />
 	<Clock />
 	<SearchComp />
 </div>
@@ -33,19 +34,4 @@
 		width: 100vw;
 		background-color: transparent;
 	}
-
-	:global(bg) {
-		position: fixed;
-		z-index: -1;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: url('/icons/HK.webp');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-	}
-
 </style>

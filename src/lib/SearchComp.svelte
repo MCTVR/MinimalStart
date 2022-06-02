@@ -155,7 +155,7 @@
         height: 100%;
         width: 100%;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
+        background-color: #fffffffe;
         border-radius: 50px;
     }
 
