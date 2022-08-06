@@ -3,7 +3,7 @@
 </script>
 
 <div id="bg">
-	<img src={imgURL} alt="" />
+	<img id="bg-img" src={imgURL} alt="HK" />
 </div>
 
 <style>
@@ -15,7 +15,7 @@
 		width: 100%;
 		height: 100%;
 	}
-	#bg img {
+	#bg-img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;

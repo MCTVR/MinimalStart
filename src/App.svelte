@@ -3,12 +3,14 @@
 	import Clock from './lib/Clock.svelte';
 	import Background from './lib/Background.svelte';
 
+	let backgroundPicture = new File([], "./icons/HK.webp");
+
 </script>
 
 <div id="app">
-	<Background />
+	<Background {backgroundPicture} />
 	<Clock />
-	<SearchComp />
+	<SearchComp {backgroundPicture} />
 </div>
 
 <style>
@@ -19,7 +21,7 @@
 	}
 
 	:global(*) {
-		font-family: "SF Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	:global(img, svg) {

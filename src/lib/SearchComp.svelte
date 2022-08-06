@@ -8,6 +8,9 @@
 
 	let searchVal;
 
+	const siteExpWithProtocol = /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/;
+	const siteExpWithoutProtocol = /^[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/
+
 	const searchEngineList = [
 		{ name: "DuckDuckGo", query: "https://duckduckgo.com/?q=" },
 		{ name: "Google", query: "https://www.google.com/search?q=" },
@@ -19,7 +22,17 @@
 			searchEngineList[
 				searchEngineList.findIndex((x) => x.name == searchEngineChosen)
 			].query;
-		window.location.href = query + searchVal;
+		
+			if (searchVal.match(siteExpWithProtocol)) {
+				window.location.href = searchVal;
+				console.log(searchVal);
+			} else if (searchVal.match(siteExpWithoutProtocol)) {
+				window.location.href = "https://" + searchVal;
+				console.log("https://" + searchVal);
+			} else {
+				window.location.href = query + searchVal;
+				console.log(query + searchVal);
+			}	
 	};
 
 	onMount(() => {
@@ -34,6 +47,12 @@
 			});
 	});
 </script>
+
+
+<!-- <div id="choose-bg">
+	<img src="./icons/add_photo.svg" alt="" />
+	<input type="file" accept=".jpg, .jpeg, .png, .webp"/>
+</div> -->
 
 <div id="search-component-wrapper">
 	<div id="search-component">
@@ -154,6 +173,38 @@
 </div>
 
 <style>
+	#choose-bg {
+		position: fixed;
+		cursor: pointer;
+		bottom: 0;
+		right: 0;
+	}
+
+	#choose-bg img {
+		position: fixed;
+		cursor: pointer;
+		bottom: 0;
+		right: 0;
+		width: 40px;
+		height: 40px;
+		outline: none;
+		border: 0;
+		margin: 22px;
+	}
+
+	#choose-bg input {
+		position: fixed;
+		cursor: pointer;
+		bottom: 0;
+		right: 0;
+		width: 40px;
+		height: 40px;
+		outline: none;
+		border: 0;
+		margin: 22px;
+		opacity: 0;
+	}
+
 	#searchBar::placeholder {
 		user-select: none;
 	}
