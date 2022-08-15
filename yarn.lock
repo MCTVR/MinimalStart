@@ -3,220 +3,265 @@
 
 
 "@rollup/pluginutils@^4.2.1":
-  "integrity" "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
-  "version" "4.2.1"
+  version "4.2.1"
+  resolved "https://repo.huaweicloud.com/repository/npm/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
   dependencies:
-    "estree-walker" "^2.0.1"
-    "picomatch" "^2.2.2"
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.30":
-  "integrity" "sha512-J6n8UN51aq/TEZGQ89/EtdXTtca3cRcTJGzi6fi+xK8LkgsHQLCZhRj+PJ+swktRSWTX9IOmQS55SqVg6bz5fA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.47.tgz"
-  "version" "1.0.0-next.47"
+  version "1.0.0-next.47"
+  resolved "https://repo.huaweicloud.com/repository/npm/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.47.tgz"
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
-    "debug" "^4.3.4"
-    "deepmerge" "^4.2.2"
-    "kleur" "^4.1.4"
-    "magic-string" "^0.26.2"
-    "svelte-hmr" "^0.14.12"
+    debug "^4.3.4"
+    deepmerge "^4.2.2"
+    kleur "^4.1.4"
+    magic-string "^0.26.2"
+    svelte-hmr "^0.14.12"
 
-"debug@^4.3.4":
-  "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/debug/-/debug-4.3.4.tgz"
-  "version" "4.3.4"
+debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://repo.huaweicloud.com/repository/npm/debug/-/debug-4.3.4.tgz"
   dependencies:
-    "ms" "2.1.2"
+    ms "2.1.2"
 
-"deepmerge@^4.2.2":
-  "integrity" "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/deepmerge/-/deepmerge-4.2.2.tgz"
-  "version" "4.2.2"
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/deepmerge/-/deepmerge-4.2.2.tgz"
 
-"esbuild-darwin-64@0.14.42":
-  "integrity" "sha512-ipiBdCA3ZjYgRfRLdQwP82rTiv/YVMtW36hTvAN5ZKAIfxBOyPXY7Cejp3bMXWgzKD8B6O+zoMzh01GZsCuEIA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/esbuild-darwin-64/-/esbuild-darwin-64-0.14.42.tgz"
-  "version" "0.14.42"
+esbuild-android-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.14.42.tgz#d7ab3d44d3671218d22bce52f65642b12908d954"
 
-"esbuild@^0.14.27":
-  "integrity" "sha512-V0uPZotCEHokJdNqyozH6qsaQXqmZEOiZWrXnds/zaH/0SyrIayRXWRB98CENO73MIZ9T3HBIOsmds5twWtmgw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/esbuild/-/esbuild-0.14.42.tgz"
-  "version" "0.14.42"
+esbuild-android-arm64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-android-arm64/-/esbuild-android-arm64-0.14.42.tgz#45336d8bec49abddb3a022996a23373f45a57c27"
+
+esbuild-darwin-64@0.14.42:
+  version "0.14.42"
+  resolved "https://repo.huaweicloud.com/repository/npm/esbuild-darwin-64/-/esbuild-darwin-64-0.14.42.tgz"
+
+esbuild-darwin-arm64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.42.tgz#2c7313e1b12d2fa5b889c03213d682fb92ca8c4f"
+
+esbuild-freebsd-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.42.tgz#ad1c5a564a7e473b8ce95ee7f76618d05d6daffc"
+
+esbuild-freebsd-arm64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.42.tgz#4bdb480234144f944f1930829bace7561135ddc7"
+
+esbuild-linux-32@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-32/-/esbuild-linux-32-0.14.42.tgz#ef18fd19f067e9d2b5f677d6b82fa81519f5a8c2"
+
+esbuild-linux-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.14.42.tgz#d84e7333b1c1b22cf8b5b9dbb5dd9b2ecb34b79f"
+
+esbuild-linux-arm64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.42.tgz#dc19e282f8c4ffbaa470c02a4d171e4ae0180cca"
+
+esbuild-linux-arm@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm/-/esbuild-linux-arm-0.14.42.tgz#d49870e63e2242b8156bf473f2ee5154226be328"
+
+esbuild-linux-mips64le@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.42.tgz#f4e6ff9bf8a6f175470498826f48d093b054fc22"
+
+esbuild-linux-ppc64le@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.42.tgz#ac9c66fc80ba9f8fda15a4cc08f4e55f6c0aed63"
+
+esbuild-linux-riscv64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.42.tgz#21e0ae492a3a9bf4eecbfc916339a66e204256d0"
+
+esbuild-linux-s390x@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.42.tgz#06d40b957250ffd9a2183bfdfc9a03d6fd21b3e8"
+
+esbuild-netbsd-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.42.tgz#185664f05f10914f14ed43bd9e22b7de584267f7"
+
+esbuild-openbsd-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.42.tgz#c29006f659eb4e55283044bbbd4eb4054fae8839"
+
+esbuild-sunos-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.14.42.tgz#aa9eec112cd1e7105e7bb37000eca7d460083f8f"
+
+esbuild-windows-32@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.14.42.tgz#c3fc450853c61a74dacc5679de301db23b73e61e"
+
+esbuild-windows-64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.14.42.tgz#b877aa37ff47d9fcf0ccb1ca6a24b31475a5e555"
+
+esbuild-windows-arm64@0.14.42:
+  version "0.14.42"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.42.tgz#79da8744626f24bc016dc40d016950b5a4a2bac5"
+
+esbuild@^0.14.27:
+  version "0.14.42"
+  resolved "https://repo.huaweicloud.com/repository/npm/esbuild/-/esbuild-0.14.42.tgz"
   optionalDependencies:
-    "esbuild-android-64" "0.14.42"
-    "esbuild-android-arm64" "0.14.42"
-    "esbuild-darwin-64" "0.14.42"
-    "esbuild-darwin-arm64" "0.14.42"
-    "esbuild-freebsd-64" "0.14.42"
-    "esbuild-freebsd-arm64" "0.14.42"
-    "esbuild-linux-32" "0.14.42"
-    "esbuild-linux-64" "0.14.42"
-    "esbuild-linux-arm" "0.14.42"
-    "esbuild-linux-arm64" "0.14.42"
-    "esbuild-linux-mips64le" "0.14.42"
-    "esbuild-linux-ppc64le" "0.14.42"
-    "esbuild-linux-riscv64" "0.14.42"
-    "esbuild-linux-s390x" "0.14.42"
-    "esbuild-netbsd-64" "0.14.42"
-    "esbuild-openbsd-64" "0.14.42"
-    "esbuild-sunos-64" "0.14.42"
-    "esbuild-windows-32" "0.14.42"
-    "esbuild-windows-64" "0.14.42"
-    "esbuild-windows-arm64" "0.14.42"
+    esbuild-android-64 "0.14.42"
+    esbuild-android-arm64 "0.14.42"
+    esbuild-darwin-64 "0.14.42"
+    esbuild-darwin-arm64 "0.14.42"
+    esbuild-freebsd-64 "0.14.42"
+    esbuild-freebsd-arm64 "0.14.42"
+    esbuild-linux-32 "0.14.42"
+    esbuild-linux-64 "0.14.42"
+    esbuild-linux-arm "0.14.42"
+    esbuild-linux-arm64 "0.14.42"
+    esbuild-linux-mips64le "0.14.42"
+    esbuild-linux-ppc64le "0.14.42"
+    esbuild-linux-riscv64 "0.14.42"
+    esbuild-linux-s390x "0.14.42"
+    esbuild-netbsd-64 "0.14.42"
+    esbuild-openbsd-64 "0.14.42"
+    esbuild-sunos-64 "0.14.42"
+    esbuild-windows-32 "0.14.42"
+    esbuild-windows-64 "0.14.42"
+    esbuild-windows-arm64 "0.14.42"
 
-"estree-walker@^2.0.1":
-  "integrity" "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/estree-walker/-/estree-walker-2.0.2.tgz"
-  "version" "2.0.2"
+estree-walker@^2.0.1:
+  version "2.0.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/estree-walker/-/estree-walker-2.0.2.tgz"
 
-"fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
+fsevents@~2.3.2:
+  version "2.3.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/fsevents/-/fsevents-2.3.2.tgz"
 
-"function-bind@^1.1.1":
-  "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/function-bind/-/function-bind-1.1.1.tgz"
-  "version" "1.1.1"
+function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "https://repo.huaweicloud.com/repository/npm/function-bind/-/function-bind-1.1.1.tgz"
 
-"has@^1.0.3":
-  "integrity" "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/has/-/has-1.0.3.tgz"
-  "version" "1.0.3"
+has@^1.0.3:
+  version "1.0.3"
+  resolved "https://repo.huaweicloud.com/repository/npm/has/-/has-1.0.3.tgz"
   dependencies:
-    "function-bind" "^1.1.1"
+    function-bind "^1.1.1"
 
-"is-core-module@^2.8.1":
-  "integrity" "sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/is-core-module/-/is-core-module-2.9.0.tgz"
-  "version" "2.9.0"
+is-core-module@^2.8.1:
+  version "2.9.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/is-core-module/-/is-core-module-2.9.0.tgz"
   dependencies:
-    "has" "^1.0.3"
+    has "^1.0.3"
 
-"kleur@^4.1.4":
-  "integrity" "sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/kleur/-/kleur-4.1.4.tgz"
-  "version" "4.1.4"
+kleur@^4.1.4:
+  version "4.1.4"
+  resolved "https://repo.huaweicloud.com/repository/npm/kleur/-/kleur-4.1.4.tgz"
 
-"magic-string@^0.26.2":
-  "integrity" "sha512-NzzlXpclt5zAbmo6h6jNc8zl2gNRGHvmsZW4IvZhTC4W7k4OlLP+S5YLussa/r3ixNT66KOQfNORlXHSOy/X4A=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/magic-string/-/magic-string-0.26.2.tgz"
-  "version" "0.26.2"
+magic-string@^0.26.2:
+  version "0.26.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/magic-string/-/magic-string-0.26.2.tgz"
   dependencies:
-    "sourcemap-codec" "^1.4.8"
+    sourcemap-codec "^1.4.8"
 
-"ms@2.1.2":
-  "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/ms/-/ms-2.1.2.tgz"
-  "version" "2.1.2"
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/ms/-/ms-2.1.2.tgz"
 
-"nanoid@^3.3.4":
-  "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/nanoid/-/nanoid-3.3.4.tgz"
-  "version" "3.3.4"
+nanoid@^3.3.4:
+  version "3.3.4"
+  resolved "https://repo.huaweicloud.com/repository/npm/nanoid/-/nanoid-3.3.4.tgz"
 
-"path-parse@^1.0.7":
-  "integrity" "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/path-parse/-/path-parse-1.0.7.tgz"
-  "version" "1.0.7"
+path-parse@^1.0.7:
+  version "1.0.7"
+  resolved "https://repo.huaweicloud.com/repository/npm/path-parse/-/path-parse-1.0.7.tgz"
 
-"picocolors@^1.0.0":
-  "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/picocolors/-/picocolors-1.0.0.tgz"
-  "version" "1.0.0"
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/picocolors/-/picocolors-1.0.0.tgz"
 
-"picomatch@^2.2.2":
-  "integrity" "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/picomatch/-/picomatch-2.3.1.tgz"
-  "version" "2.3.1"
+picomatch@^2.2.2:
+  version "2.3.1"
+  resolved "https://repo.huaweicloud.com/repository/npm/picomatch/-/picomatch-2.3.1.tgz"
 
-"postcss@^8.4.13":
-  "integrity" "sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/postcss/-/postcss-8.4.14.tgz"
-  "version" "8.4.14"
+postcss@^8.4.13:
+  version "8.4.14"
+  resolved "https://repo.huaweicloud.com/repository/npm/postcss/-/postcss-8.4.14.tgz"
   dependencies:
-    "nanoid" "^3.3.4"
-    "picocolors" "^1.0.0"
-    "source-map-js" "^1.0.2"
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
 
-"resolve@^1.22.0":
-  "integrity" "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/resolve/-/resolve-1.22.0.tgz"
-  "version" "1.22.0"
+resolve@^1.22.0:
+  version "1.22.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/resolve/-/resolve-1.22.0.tgz"
   dependencies:
-    "is-core-module" "^2.8.1"
-    "path-parse" "^1.0.7"
-    "supports-preserve-symlinks-flag" "^1.0.0"
+    is-core-module "^2.8.1"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
 
-"rollup@^2.59.0":
-  "integrity" "sha512-JzNlJZDison3o2mOxVmb44Oz7t74EfSd1SQrplQk0wSaXV7uLQXtVdHbxlcT3w+8tZ1TL4r/eLfc7nAbz38BBA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/rollup/-/rollup-2.75.5.tgz"
-  "version" "2.75.5"
+rollup@^2.59.0:
+  version "2.75.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/rollup/-/rollup-2.75.5.tgz"
   optionalDependencies:
-    "fsevents" "~2.3.2"
+    fsevents "~2.3.2"
 
-"source-map-js@^1.0.2":
-  "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/source-map-js/-/source-map-js-1.0.2.tgz"
-  "version" "1.0.2"
+source-map-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://repo.huaweicloud.com/repository/npm/source-map-js/-/source-map-js-1.0.2.tgz"
 
-"sourcemap-codec@^1.4.8":
-  "integrity" "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
-  "version" "1.4.8"
+sourcemap-codec@^1.4.8:
+  version "1.4.8"
+  resolved "https://repo.huaweicloud.com/repository/npm/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
 
-"supports-preserve-symlinks-flag@^1.0.0":
-  "integrity" "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
-  "version" "1.0.0"
+supports-preserve-symlinks-flag@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
 
-"svelte-hmr@^0.14.12":
-  "integrity" "sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/svelte-hmr/-/svelte-hmr-0.14.12.tgz"
-  "version" "0.14.12"
+svelte-hmr@^0.14.12:
+  version "0.14.12"
+  resolved "https://repo.huaweicloud.com/repository/npm/svelte-hmr/-/svelte-hmr-0.14.12.tgz"
 
-"svelte@^3.44.0", "svelte@>=3.19.0":
-  "integrity" "sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/svelte/-/svelte-3.48.0.tgz"
-  "version" "3.48.0"
+svelte@^3.49.0:
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
-"vite@^2.9.0", "vite@^2.9.9":
-  "integrity" "sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/vite/-/vite-2.9.9.tgz"
-  "version" "2.9.9"
+vite@^2.9.9:
+  version "2.9.9"
+  resolved "https://repo.huaweicloud.com/repository/npm/vite/-/vite-2.9.9.tgz"
   dependencies:
-    "esbuild" "^0.14.27"
-    "postcss" "^8.4.13"
-    "resolve" "^1.22.0"
-    "rollup" "^2.59.0"
+    esbuild "^0.14.27"
+    postcss "^8.4.13"
+    resolve "^1.22.0"
+    rollup "^2.59.0"
   optionalDependencies:
-    "fsevents" "~2.3.2"
+    fsevents "~2.3.2"
 
-"workbox-core@6.5.3":
-  "integrity" "sha512-Bb9ey5n/M9x+l3fBTlLpHt9ASTzgSGj6vxni7pY72ilB/Pb3XtN+cZ9yueboVhD5+9cNQrC9n/E1fSrqWsUz7Q=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/workbox-core/-/workbox-core-6.5.3.tgz"
-  "version" "6.5.3"
+workbox-core@6.5.3:
+  version "6.5.3"
+  resolved "https://repo.huaweicloud.com/repository/npm/workbox-core/-/workbox-core-6.5.3.tgz"
 
-"workbox-precaching@^6.5.3":
-  "integrity" "sha512-sjNfgNLSsRX5zcc63H/ar/hCf+T19fRtTqvWh795gdpghWb5xsfEkecXEvZ8biEi1QD7X/ljtHphdaPvXDygMQ=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/workbox-precaching/-/workbox-precaching-6.5.3.tgz"
-  "version" "6.5.3"
+workbox-precaching@^6.5.3:
+  version "6.5.3"
+  resolved "https://repo.huaweicloud.com/repository/npm/workbox-precaching/-/workbox-precaching-6.5.3.tgz"
   dependencies:
-    "workbox-core" "6.5.3"
-    "workbox-routing" "6.5.3"
-    "workbox-strategies" "6.5.3"
+    workbox-core "6.5.3"
+    workbox-routing "6.5.3"
+    workbox-strategies "6.5.3"
 
-"workbox-routing@6.5.3":
-  "integrity" "sha512-DFjxcuRAJjjt4T34RbMm3MCn+xnd36UT/2RfPRfa8VWJGItGJIn7tG+GwVTdHmvE54i/QmVTJepyAGWtoLPTmg=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/workbox-routing/-/workbox-routing-6.5.3.tgz"
-  "version" "6.5.3"
+workbox-routing@6.5.3:
+  version "6.5.3"
+  resolved "https://repo.huaweicloud.com/repository/npm/workbox-routing/-/workbox-routing-6.5.3.tgz"
   dependencies:
-    "workbox-core" "6.5.3"
+    workbox-core "6.5.3"
 
-"workbox-strategies@6.5.3":
-  "integrity" "sha512-MgmGRrDVXs7rtSCcetZgkSZyMpRGw8HqL2aguszOc3nUmzGZsT238z/NN9ZouCxSzDu3PQ3ZSKmovAacaIhu1w=="
-  "resolved" "https://repo.huaweicloud.com/repository/npm/workbox-strategies/-/workbox-strategies-6.5.3.tgz"
-  "version" "6.5.3"
+workbox-strategies@6.5.3:
+  version "6.5.3"
+  resolved "https://repo.huaweicloud.com/repository/npm/workbox-strategies/-/workbox-strategies-6.5.3.tgz"
   dependencies:
-    "workbox-core" "6.5.3"
+    workbox-core "6.5.3"
