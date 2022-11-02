@@ -3,7 +3,7 @@
 	import Clock from './lib/Clock.svelte';
 	import Background from './lib/Background.svelte';
 
-	let backgroundPicture = new File([], "./icons/HK.webp");
+	let backgroundPicture = new File([], "./icons/HK.avif");
 
 </script>
 

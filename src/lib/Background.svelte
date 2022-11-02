@@ -1,5 +1,5 @@
 <script>
-	export let imgURL = "./icons/HK.webp";
+	export let imgURL = "./icons/HK.avif";
 </script>
 
 <div id="bg">

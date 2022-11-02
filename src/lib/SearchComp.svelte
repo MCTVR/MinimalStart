@@ -85,7 +85,7 @@
 							{#if searchEngine.name !== searchEngineChosen}
 								<img
 									class="searchEngine-menu-icon"
-									src="./icons/{searchEngine.name}.png"
+									src="./icons/{searchEngine.name}.avif"
 									id="{searchEngine.name}-menu-icon"
 									on:click={() => {
 										searchEngineChosen = searchEngine.name;
@@ -117,32 +117,25 @@
 					</div>
 				{/if}
 
-				{#if searchEngineChosen === "Google"}
-					<img
-						class="searchEngine-icon"
-						id="Google-icon"
-						src="./icons/Google.png"
-						alt="Google"
-					/>
-				{:else if searchEngineChosen === "DuckDuckGo"}
+				{#if searchEngineChosen === "DuckDuckGo"}
 					<img
 						class="searchEngine-icon"
 						id="DuckDuckGo-icon"
-						src="./icons/DuckDuckGo.png"
+						src="./icons/DuckDuckGo.avif"
 						alt="DuckDuckGo"
 					/>
 				{:else if searchEngineChosen === "Baidu"}
 					<img
 						class="searchEngine-icon"
 						id="Baidu-icon"
-						src="./icons/Baidu.png"
+						src="./icons/Baidu.avif"
 						alt="Baidu"
 					/>
 				{:else}
 					<img
 						class="searchEngine-icon"
 						id="Google-icon"
-						src="./icons/Google.png"
+						src="./icons/Google.avif"
 						alt="Google"
 					/>
 				{/if}
