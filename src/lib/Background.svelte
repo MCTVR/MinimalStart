@@ -1,9 +1,9 @@
 <script>
-	export let imgURL = "./icons/HK.avif";
+	import HK from "../assets/HK.avif";
 </script>
 
 <div id="bg">
-	<img id="bg-img" src={imgURL} alt="HK" />
+	<img id="bg-img" loading="lazy" decoding="sync" src={HK} alt="HK" />
 </div>
 
 <style>
@@ -12,12 +12,12 @@
 		z-index: -1;
 		top: 0;
 		left: 0;
-		width: 100%;
-		height: 100%;
+		width: 100vw;
+		height: 100vh;
 	}
 	#bg-img {
-		width: 100%;
-		height: 100%;
+		width: 100vw;
+		height: 100vh;
 		object-fit: cover;
 	}
 </style>

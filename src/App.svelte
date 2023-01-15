@@ -1,17 +1,15 @@
-<script>
-	import SearchComp from './lib/SearchComp.svelte';
-	import Clock from './lib/Clock.svelte';
-	import Background from './lib/Background.svelte';
-
-	let backgroundPicture = new File([], "./icons/HK.avif");
-
+<script lang="ts">
+	import Background from "./lib/Background.svelte";
+	import Clock from "./lib/Clock.svelte";
+	import Search from "./lib/Search.svelte";
 </script>
 
-<div id="app">
-	<Background {backgroundPicture} />
+<main id="app">
+	<Background />
+
 	<Clock />
-	<SearchComp {backgroundPicture} />
-</div>
+	<Search />
+</main>
 
 <style>
 	:global(body) {
@@ -21,7 +19,9 @@
 	}
 
 	:global(*) {
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+			Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+			sans-serif;
 	}
 
 	:global(img, svg) {

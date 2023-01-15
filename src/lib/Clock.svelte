@@ -1,49 +1,75 @@
-<script>
-	let time;
+<script lang="ts">
+	import Digit from "./Digit.svelte";
+	import { blur } from "svelte/transition";
+	import { quintInOut } from "svelte/easing";
 
-	const getTimezone = () => {
-		const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-		return timezone;
-	};
+	let time: string;
+	let date: string;
 
-	const getLocale = () => {
-		const locale = Intl.DateTimeFormat().resolvedOptions().locale;
-		return locale;
-	};
-
-	const getTime = () => {
-		const nowTime = new Date().toLocaleTimeString(getLocale(), {
-			timeZone: getTimezone(),
-			hour12: false,
-			hour: "2-digit",
-			minute: "2-digit",
+	const getCurrentTimeString = () => {
+		let locales = Intl.DateTimeFormat().resolvedOptions();
+		time = new Date().toLocaleTimeString(locales.locale, {
+			timeZone: locales.timeZone,
+			hour12: locales.hour12 ? locales.hour12 : false,
+			hour: "numeric",
+			minute: "numeric",
 		});
-		time = nowTime;
-		setTimeout(getTime, 1000);
+		date = new Date().toLocaleDateString(locales.locale, {
+			timeZone: locales.timeZone,
+			year: "numeric",
+			month: "short",
+			day: "numeric",
+			weekday: "short",
+		});
+		setTimeout(getCurrentTimeString, 1000);
 	};
 
-	getTime();
+	getCurrentTimeString();
 </script>
 
 <div id="clock">
-	<h1 id="clock-digits">{time}</h1>
+	<div id="clock-digits-container">
+		<h2 id="clock-date">{date}</h2>
+		{#if time !== undefined}
+			<h1
+				id="clock-digits"
+				transition:blur={{ duration: 200, easing: quintInOut }}
+			>
+				{#key time}
+					{#each Object.entries(time) as [_, char], i}
+						{#if i === time.length - 1}
+							<Digit num={char} {i} />
+						{:else}
+							<Digit num={char} i={undefined} />
+						{/if}
+					{/each}
+				{/key}
+			</h1>
+		{/if}
+	</div>
 </div>
 
 <style>
-	#clock {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 100vw;
-		user-select: none;
+	#clock-digits-container {
+		margin-top: 6em;
+		margin-bottom: 4.5em;
 	}
-
-	#clock #clock-digits {
+	#clock-date {
+		font-size: 1.5rem;
+		color: #fdfdfd99;
+		user-select: none;
+		font-weight: 300;
+		font-variant: small-caps;
+		margin-bottom: -3pt;
+		height: 1.5rem;
+		filter: drop-shadow(0 0 0.5rem rgba(30, 30, 30, 0.5));
+	}
+	#clock-digits {
+		font-size: 5.5rem;
+		user-select: none;
+		font-weight: 400;
 		margin: 0;
-		padding: 18% 4rem 4rem 3rem;
-		font-size: 5rem;
-		color: #fdfdfd;
-		filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.44));
+		height: 5.5rem;
+		filter: drop-shadow(0 0 0.5rem rgba(30, 30, 30, 0.5));
 	}
 </style>

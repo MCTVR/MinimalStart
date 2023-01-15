@@ -1,0 +1,95 @@
+{
+    "en": {
+        "searchBarPlaceholder": "Search with #SearchEngine#"
+    },
+    "zh": {
+        "searchBarPlaceholder": "使用 #SearchEngine# 搜索"
+    },
+    "ja": {
+        "searchBarPlaceholder": "#SearchEngine# で検索"
+    },
+    "ko": {
+        "searchBarPlaceholder": "#SearchEngine# 로 검색"
+    },
+    "de": {
+        "searchBarPlaceholder": "Suche mit #SearchEngine#"
+    },
+    "fr": {
+        "searchBarPlaceholder": "Rechercher avec #SearchEngine#"
+    },
+    "es": {
+        "searchBarPlaceholder": "Buscar con #SearchEngine#"
+    },
+    "ru": {
+        "searchBarPlaceholder": "Поиск с помощью #SearchEngine#"
+    },
+    "uk": {
+        "searchBarPlaceholder": "Пошук за допомогою #SearchEngine#"
+    },
+    "pt": {
+        "searchBarPlaceholder": "Pesquisar com #SearchEngine#"
+    },
+    "tr": {
+        "searchBarPlaceholder": "#SearchEngine# ile ara"
+    },
+    "it": {
+        "searchBarPlaceholder": "Cerca con #SearchEngine#"
+    },
+    "th": {
+        "searchBarPlaceholder": "ค้นหาด้วย #SearchEngine#"
+    },
+    "ar": {
+        "searchBarPlaceholder": "البحث باستخدام #SearchEngine#"
+    },
+    "in": {
+        "searchBarPlaceholder": "Cari dengan #SearchEngine#"
+    },
+    "vi": {
+        "searchBarPlaceholder": "Tìm kiếm bằng #SearchEngine#"
+    },
+    "pl": {
+        "searchBarPlaceholder": "Szukaj za pomocą #SearchEngine#"
+    },
+    "ph": {
+        "searchBarPlaceholder": "Maghanap sa pamamagitan ng #SearchEngine#"
+    },
+    "nl": {
+        "searchBarPlaceholder": "Zoeken met #SearchEngine#"
+    },
+    "cs": {
+        "searchBarPlaceholder": "Hledat pomocí #SearchEngine#"
+    },
+    "hu": {
+        "searchBarPlaceholder": "Keresés #SearchEngine# segítségével"
+    },
+    "ro": {
+        "searchBarPlaceholder": "Căutare cu #SearchEngine#"
+    },
+    "bg": {
+        "searchBarPlaceholder": "Търсене с #SearchEngine#"
+    },
+    "el": {
+        "searchBarPlaceholder": "Αναζήτηση με #SearchEngine#"
+    },
+    "hi": {
+        "searchBarPlaceholder": "#SearchEngine# के साथ खोजें"
+    },
+    "gr": {
+        "searchBarPlaceholder": "Αναζήτηση με #SearchEngine#"
+    },
+    "he": {
+        "searchBarPlaceholder": "חיפוש עם #SearchEngine#"
+    },
+    "id": {
+        "searchBarPlaceholder": "Cari dengan #SearchEngine#"
+    },
+    "ms": {
+        "searchBarPlaceholder": "Cari dengan #SearchEngine#"
+    },
+    "no": {
+        "searchBarPlaceholder": "Søk med #SearchEngine#"
+    },
+    "fa": {
+        "searchBarPlaceholder": "جستجو با #SearchEngine#"
+    }
+}
