@@ -14,5 +14,5 @@
 - **TypeScript**
 
 <font size="1">
-<sup>1</sup> Arabic, Bulgarian, Chinese, Czech, Dutch, English, Filipino, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Spanish, Thai, Turkish, Ukrainian, Vietnamese
+<sup>1</sup> Afrikaans, Arabic, Belarusian, Bulgarian, Chinese, Czech, Danish, Dutch, English, Esperanto, Filipino, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Welsh
 </font>

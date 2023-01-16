@@ -2,6 +2,9 @@
     "en": {
         "searchBarPlaceholder": "Search with #SearchEngine#"
     },
+    "cy": {
+        "searchBarPlaceholder": "Chwilio gyda #SearchEngine#"
+    },
     "zh": {
         "searchBarPlaceholder": "使用 #SearchEngine# 搜索"
     },
@@ -11,6 +14,9 @@
     "ko": {
         "searchBarPlaceholder": "#SearchEngine# 로 검색"
     },
+    "da": {
+        "searchBarPlaceholder": "Søg med #SearchEngine#"
+    },
     "de": {
         "searchBarPlaceholder": "Suche mit #SearchEngine#"
     },
@@ -19,6 +25,9 @@
     },
     "es": {
         "searchBarPlaceholder": "Buscar con #SearchEngine#"
+    },
+    "be": {
+        "searchBarPlaceholder": "Пошук з дапамогай #SearchEngine#"
     },
     "ru": {
         "searchBarPlaceholder": "Поиск с помощью #SearchEngine#"
@@ -67,6 +76,12 @@
     },
     "bg": {
         "searchBarPlaceholder": "Търсене с #SearchEngine#"
+    },
+    "nb": {
+        "searchBarPlaceholder": "Søk med #SearchEngine#"
+    },
+    "sv": {
+        "searchBarPlaceholder": "Sök med #SearchEngine#"
     },
     "el": {
         "searchBarPlaceholder": "Αναζήτηση με #SearchEngine#"
